@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(imagenes/9422700.jpg);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.travel-post {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+time {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    margin: 10px 0;
+}

@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.faq-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.faq-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.question {
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked + .question + .answer {
+    display: block;
+}
+
+H1{
+color: #fff;
+}

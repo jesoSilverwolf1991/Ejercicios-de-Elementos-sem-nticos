@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.opciones .opcion {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.opciones .opcion:hover {
+    background-color: #45a049;
+}

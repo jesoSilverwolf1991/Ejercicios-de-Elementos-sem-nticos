@@ -1,0 +1,48 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+ul, ol {
+    margin-left: 20px;
+    
+}
+
+
+ul li {
+    list-style-type: disc;
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+ol li {
+    list-style-type: decimal;
+    margin-left: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: green;
+    color: #fff;
+    padding: 10px;
+}

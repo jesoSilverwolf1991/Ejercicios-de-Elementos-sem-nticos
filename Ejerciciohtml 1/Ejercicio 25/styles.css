@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(fondo.jpg);
+    background-size: 100%;
+}
+
+.playlist {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:rgb(92, 206, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.song-title {
+    font-weight: bold;
+}
+
+.artist {
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    background-color: rgb(11, 55, 91);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #b0eaff;
+}
